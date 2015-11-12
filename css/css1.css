@@ -39,7 +39,10 @@ src: url('msyh.ttc'),
 }
 /*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+     #header #links{
+   text-align: center;
+   float:none;
+  }
 }
 /*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
 @media (min-width: 768px) and (max-width: 991px) {
