@@ -27,43 +27,10 @@ src: url('msyh.ttc'),
   color: black;
 }
 
+#header #links{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   float:right;
+}
 
 
 /*自适应*/
@@ -76,13 +43,22 @@ src: url('msyh.ttc'),
 }
 /*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  #header #links{
+   text-align: center;
+   float:none;
+  }
 }
 /*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
 @media (min-width: 480px) and (max-width: 767px) {
-
+  #header #links{
+   text-align: center;
+   float:none;
+  }
 }
 /*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
 @media (max-width: 479px) {
-
+  #header #links{
+   text-align: center;
+   float:none;
+  }
 }
