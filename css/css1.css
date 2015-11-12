@@ -1,0 +1,97 @@
+@font-face
+{
+font-family: myFont;
+src: url('msyh.ttc'),
+     url('msyh.ttc'); /* IE9+ */
+}
+
+#header{
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+
+#header .logo{
+    cursor:default ;
+  /*  padding-right: 500px;*/
+}
+#header a{
+  font-family:myFont,fantasy;
+  color: whitesmoke;
+}
+
+#header #links a{
+  cursor:pointer;
+}
+
+#header #links a:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+
+#header #links{
+
+   float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*自适应*/
+@media (min-width: 1200px) {
+  
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+  #header #links{
+   text-align: center;
+   float:none;
+  }
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+  #header #links{
+   text-align: center;
+   float:none;
+  }
+}
