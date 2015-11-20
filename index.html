@@ -7,7 +7,12 @@
   
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/css1.css" rel="stylesheet" type="text/css">
-  
+
+   <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+   <script src="http://cdn.bootcss.com/jqueryui/1.11.4/jquery-ui.min.js"></script>
+   <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="js/js1.js"></script>
+   
 </head>
 <body>
   <!--菜单栏-->
@@ -19,27 +24,114 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-sm logo">免疫骑士</a>  
+      <a class="navbar-brand hidden-sm logo" href="#section0"><img src="pics/titleW.png"></a>  
     </div>
   
   
   <div class="navbar-collapse collapse" role="navigation" id="links">
     <ul class="nav navbar-nav group">
-      <li><a>剧情</a></li>
-      <li><a>玩法</a></li>
-      <li><a>视频</a></li>
-      <li><a>团队</a></li>
-      <li><a>下载</a></li>
+      <li><a href="#section1">剧情</a></li>
+      <li><a href="#section2">场景</a></li>
+      <li><a href="#section3">ATP</a></li>
+      <li><a href="#section4">视频</a></li>
+      <li><a href="#section5">下载</a></li>
     </ul>
   </div>
   <!--页面栏-->
   <!--第一个页面-->
  </div>
 </div>
-
-
   
-  <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-  <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<div id="section0" class="section">
+  <div class="title"><img src="pics/title.png"></div>
+  <div class="pics"><img src="pics/main%20role.png"></div>
+</div>
+  
+<div id="section1" class="section">
+  <div class="secOne">
+    <h2 class="secH2">Run for health!</h2>
+    <div class="secOneP1"><p>
+      《免疫骑士》是一款结合了运动和经典RPG形式的游戏。通过现实与游戏虚拟世界的简单交互，我们旨在让玩家能够更快乐地运动，更有趣地游戏。让运动数据本身不再局限于一个数字，让健康变得更简单。
+      </p></div>
+    <div class="secOneP2"><p>
+      在游戏中，玩家控制角色——免疫骑士，在人体的器官中走动，消灭一路上遇到的邪恶的病毒和细菌。重重困难，路途险恶，穿越血与肉。面对这个庞大腐朽的躯体，免疫骑士又该怎样做出改变?</br><b>一起战斗吧！为了健康！</b>
+      </p></div>
+  </div>
+</div>
+  
+<div id="section2" class="section">
+  <div class="containMap">
+  <div class="row scene">
+  <div class="col-sm-12 col-md-4">
+    <div class="map sec2">
+      <img src="pics/map.png" />
+      <div class="caption">
+        <h3>地图页面</h3>
+        <p>
+          真实器官划分<br/>
+          随机遭遇病菌<br/>
+        </p>     
+       
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4">
+  <div class="atp sec2">
+    <span><img src="pics/Nexus_5_Front_View.jpg"></span>
+      <div class="caption">
+        <h3>ATP添加页面</h3>
+        <p>
+          步数转成ATP<br/>
+          <a type="button" class="btn" href="#section3">ATP详细介绍！</a>
+        </p>
+      </div>
+  </div>
+  </div>
+  <div class="col-sm-12 col-md-4">
+    <div class="war sec2">
+      <img src="pics/war%20(1).png">
+      <div class="caption">
+        <h3>战斗页面</h3>
+        <p>
+          自动战斗模式<br/>
+          多种华丽招式<br/>
+        </p>
+      </div>
+    </div>
+  </div>
+    
+</div>
+</div>
+</div>
+  
+<div id="section3" class="section">
+
+</div>
+  
+<div id="section4" class="section">
+   <div class="video">
+    <video width=100% height="520" controls="controls">
+      <source src="video/trailer2.mp4" type="video/mp4" />
+      <source src="video/trailer2.mov" type="video/mov" />
+      <source src="video/trailer2.avi" type="video/avi" />
+    <object data="video/trailer2.mp4" width="320" height="240">
+      <embed src="video/trailer2.swf" width="320" height="240" />
+    </object>
+    </video>
+</div>
+  
+
+ 
+<div id="section5" class="section">
+  <div class="android" id="black-android"><img src="pics/Android.png"></div>
+  <div class="android" id="green-android"><img src="pics/AndroidG.png"></div>
+  <div class="download"><button class="btn"><a href="msyh.apk"><b>download</b></a></button></div>
+</div>
+
+<div id="section6">
+  <h3>请问今天要来点游戏吗<br/>
+  PRESENTS</h3>
+</div>
+  
 </body>
 </html>
