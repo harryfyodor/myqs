@@ -7,6 +7,7 @@
   
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/css1.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/idangerous.swiper.css">
 
    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
    <script src="http://cdn.bootcss.com/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -57,10 +58,11 @@
       在游戏中，玩家控制角色——免疫骑士，在人体的器官中走动，消灭一路上遇到的邪恶的病毒和细菌。重重困难，路途险恶，穿越血与肉。面对这个庞大腐朽的躯体，免疫骑士又该怎样做出改变?</br><b>一起战斗吧！为了健康！</b>
       </p></div>
   </div>
+  <span class="glyphicon glyphicon-knight" style="font-size:30px;"></span>
 </div>
   
 <div id="section2" class="section">
-  <div class="containMap">
+  <!--<div class="containMap">
   <div class="row scene">
   <div class="col-sm-12 col-md-4">
     <div class="map sec2">
@@ -101,7 +103,52 @@
   </div>
     
 </div>
-</div>
+</div>-->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+    
+      <div class="swiper-slide blue-slide">
+        <img src="pics/map.png"/>
+        <div class="Sec2">
+          <h3>地图页面</h3>
+          <p>
+            真实器官划分<br/>
+            随机遭遇病菌<br/>
+            <span class="glyphicon glyphicon-arrow-right" style="font-size:30px;"></span>
+          </p>
+        </div>
+        
+      </div>
+      
+      
+      <div class="swiper-slide red-slide">
+        <img src="pics/Nexus_5_Front_View.jpg"/>
+        <div class="Sec2">
+            <h3>ATP添加页面</h3>
+            <p>
+              步数转成ATP<br/>
+              <a type="button" class="btn" href="#section3">ATP详细介绍！</a>
+            </p>
+          <p><span class="glyphicon glyphicon-arrow-right" style="font-size:30px;"></span></p>
+        </div>
+      </div>
+      
+      
+      <div class="swiper-slide orange-slide">
+        <img src="pics/war%20(1).png"/>
+        <div class="Sec2">
+          <h3>战斗页面</h3>
+          <p>
+            自动战斗模式<br/>
+            多种华丽招式<br/>
+          </p>
+        </div>
+      </div>
+      
+      
+    </div>
+    <div class="pagination"></div>
+  </div>
 </div>
   
 <div id="section3" class="section">
@@ -133,5 +180,14 @@
   PRESENTS</h3>
 </div>
   
+  
+  <script src="js/idangerous.swiper-2.1.min.js"></script>
+  <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    paginationClickable: true,
+    mode: 'horizontal'
+  })
+  </script>
 </body>
 </html>
