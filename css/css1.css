@@ -144,23 +144,26 @@ span{
 }
 .pagination {
   position: absolute;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
   z-index: 20;
-  left: 10px;
-  top: 10px;
+  left: 1px;
+  top: 560px;
 }
 .swiper-pagination-switch {
-  display: block;
-  width: 8px;
-  height: 8px;
-  border-radius: 8px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
   background: #555;
-  margin: 0 0px 5px;
+  margin: 8px 8px 8px 8px;
   opacity: 0.8;
   border: 1px solid #fff;
   cursor: pointer;
 }
 .swiper-active-switch {
-  background: #fff;
+  background: green;
 }
 /*第三个*/
 video{
@@ -260,9 +263,16 @@ video{
   }
   .swiper-container {
   width: 540px;
-  height: 540px;
+  height: 560px;
   color: #fff;
   text-align: center;
+}
+    .swiper-container{
+  position: relative;
+  top:130px;
+}
+  .pagination {
+  top: 500px;
 }
 }
 /*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
@@ -305,13 +315,16 @@ video{
   }
   .swiper-container{
   position: relative;
-  top:0px;
+  top:20px;
 }
   .swiper-container {
   width: 540px;
-  height: 540px;
+  height: 580px;
   color: #fff;
   text-align: center;
+}
+  .pagination {
+  top: 500px;
 }
 }
 /*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
@@ -360,9 +373,12 @@ video{
 }
   .swiper-container {
   width: 440px;
-  height: 440px;
+  height: 480px;
   color: #fff;
   text-align: center;
+}
+    .pagination {
+    top: 430px;
 }
 }
 /*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
@@ -408,12 +424,15 @@ video{
   }
   .swiper-container{
   position: relative;
-  top:0px;
+  top:50px;
 }
   .swiper-container {
-  width: 340px;
-  height: 340px;
+  width: 440px;
+  height: 480px;
   color: #fff;
   text-align: center;
+}
+    .pagination {
+    top: 430px;
 }
 }
