@@ -165,14 +165,136 @@ span{
 .swiper-active-switch {
   background: green;
 }
+#section2{
+  height: 700px;
+}
+.ui-loader{
+  display: none;
+}
 /*第三个*/
+.sec3{
+
+  width:80%;
+  height: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.immune{
+  width:80%;
+  height: 60px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.imBorder{
+  margin-top: 9px;
+  border: 5px black solid;
+  height: 25px;
+  width: 85%;
+  border-radius: 5px;
+  float: right;
+}
+.imContent{
+  background-color: lawngreen;
+  height: 15px;
+  width: 60%;
+}
+.powerWords{
+  float:left;
+}
+.descriptionOfAtp{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.descriptionOfAtpDe{
+  padding: 10px;
+  position: relative;
+  top:40px;
+  border: 1px black;
+  border-style: none solid solid solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0.3);
+}
+.Two{
+  display: inline;
+  width:100%;
+}
+#im1{
+  border:1px black;
+  border-style: solid solid none solid ;
+  padding: 10px;
+  float: left;
+  box-shadow: 0 1px 10px rgba(0.3);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor:pointer;
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 0px 1px #888888;
+  width:60%;
+}
+#im2{
+  border: 1px black solid;
+  padding: 10px;
+  float: left;
+  border-style: none none solid none ;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor:pointer;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 0px 1px #888888;
+  width:40%;
+}
+#im2P{
+  display: none;
+}
+#section3{
+  height: 700px;
+}
+.sec3{
+  position: relative;
+  top:100px;
+  height: 550px;
+}
+#im1,#im2,#imP1,#imP2{
+  font-size: 14px;
+}
+.clone{
+  width:200px;
+  
+}
+
+#babyAll{
+
+}
+#holdBaby{
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 100px;
+}
+#babyIn{
+  position: absolute;
+}
+#babyOut{
+  position: absolute;
+}
+
+/*第四个*/
 video{
   text-align: center; 
   position: relative;
   width: 100%;
   height: 600px;
 }
-/*第四个*/
+/*第五个*/
 .intro-peo{
   border: 1px solid black;
   height: 250px;
@@ -190,7 +312,7 @@ video{
   font-size: 20px;
   color: black;
 }
- /*第五个*/
+ /*第六个*/
 .android{
   width: 100%;
   text-align: center;
@@ -225,7 +347,7 @@ video{
 #section5 .download .btn a{
    text-decoration:none;
 }
-/*第六个*/
+/*第七个*/
 #section6{
   width:100%;
   background-color:black;
@@ -274,6 +396,14 @@ video{
   .pagination {
   top: 500px;
 }
+  .sec3{
+    position: relative;
+    top:80px;
+    height: 550px;
+  }
+  .clone{
+  width:180px;
+}
 }
 /*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -288,9 +418,6 @@ video{
   .pics img{
     width:320px;
     height:320px;
-  }
-  #section2{
-    height: 1900px;
   }
   
   .secOneP1{
@@ -326,6 +453,20 @@ video{
   .pagination {
   top: 500px;
 }
+  #section2{
+    height: 600px;
+  }
+  .sec3{
+    position: relative;
+    top:50px;
+    height: 550px;
+  }
+  #section3{
+    height: 600px;
+  }
+  .clone{
+  width:150px;
+}
 }
 /*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
 @media (min-width: 480px) and (max-width: 767px) {
@@ -341,12 +482,7 @@ video{
     width:300px;
     height: 300px;
   }
-  #section3{
-    height: 1200px;
-  }
-  #section2{
-    height: 1900px;
-  }
+
     .secOneP1{
   font-size: 18px;
   width:100%;
@@ -380,6 +516,21 @@ video{
     .pagination {
     top: 430px;
 }
+  #section2{
+    height: 450px;
+  }
+  #section3{
+    height: 580px;
+  }
+  .imBorder{
+    width:80%;
+  }
+  .descriptionOfAtp{
+    width:75%
+  }
+    .clone{
+    width:120px;
+  }
 }
 /*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
 @media (max-width: 479px) {
@@ -395,12 +546,7 @@ video{
     width:290px;
     height: 290px;
   }
-  #section3{
-    height: 1200px;
-  }
-  #section2{
-    height: 1900px;
-  }
+
   
   .secH2{
     padding-top: 0px;
@@ -424,15 +570,30 @@ video{
   }
   .swiper-container{
   position: relative;
-  top:50px;
+  top:130px;
 }
   .swiper-container {
-  width: 440px;
-  height: 480px;
+  width: 350px;
+  height: 420px;
   color: #fff;
   text-align: center;
 }
     .pagination {
-    top: 430px;
+    top: 360px;
+}
+  .imBorder{
+    width:75%;
+  }
+  #section2{
+    height: 500px;
+  }
+  #section3{
+    height: 500px;
+  }
+  .descriptionOfAtp{
+    width:80%
+  }
+    .clone{
+  width:100px;
 }
 }

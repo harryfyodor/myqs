@@ -3,16 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>index</title>
+  <title>免疫骑士</title>
   
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/css1.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/idangerous.swiper.css">
-
-   <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-   <script src="http://cdn.bootcss.com/jqueryui/1.11.4/jquery-ui.min.js"></script>
-   <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-   <script src="js/js1.js"></script>
    
 </head>
 <body>
@@ -152,7 +147,36 @@
 </div>
   
 <div id="section3" class="section">
+  <div class="sec3">
+  <div class="appearance">
+    <div class="immune">
+      <h4 class="powerWords"><b>免疫力</b></h4>
+      <div class="imBorder">
+        <div class="imContent"></div>
+      </div>
+    </div>
+    <div id="holdBaby">
 
+      <img id="babyOut" class="clone" src="pics/out.png"/>
+      <img id="babyIn" class="clone" src="pics/in.png" />
+    </div>
+  </div>
+  
+  <div class="descriptionOfAtp">
+    <div class="Two">
+      <a id="im1">免疫力加成</a>
+      <a id="im2">发动招式</a>
+    </div>
+    <div class="descriptionOfAtpDe">
+      <p id="im1P"><br/>利用ATP值随时<br/>提高角色免疫力<br/><b>试一试长按下方按钮</b><br/>
+        <a id="imPower"  data-role="page"  style="width:60px;height:60px;"><img src="pics/eco47.png" style="width:50px;height:50px;"/></a>
+      </p>
+      <p id="im2P">使用ATP<br/>发动华丽招式<br/><b>按下方按钮使用免疫吞噬</b><br/>
+        <a id="attack"  data-role="page"  style="width:50px;height:50px;"><img src="pics/444925373469956096.png" style="width:50px;height:50px;"/></a>
+      </p>
+    </div>
+  </div>
+</div>
 </div>
   
 <div id="section4" class="section">
@@ -165,6 +189,7 @@
       <embed src="video/trailer2.swf" width="320" height="240" />
     </object>
     </video>
+   </div>
 </div>
   
 
@@ -180,7 +205,12 @@
   PRESENTS</h3>
 </div>
   
-  
+   <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+   <script src="http://cdn.bootcss.com/jqueryui/1.11.4/jquery-ui.min.js"></script>
+   <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js">  </script>
+   <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   
+   <script src="js/js1.js"></script>
   <script src="js/idangerous.swiper-2.1.min.js"></script>
   <script>
   var mySwiper = new Swiper('.swiper-container',{
@@ -188,6 +218,11 @@
     paginationClickable: true,
     mode: 'horizontal'
   })
+  </script>
+  <script>
+   $(function () {
+      $('#myTab li:eq(1) a').tab('show');
+   });
   </script>
 </body>
 </html>
